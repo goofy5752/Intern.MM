@@ -11,8 +11,7 @@ namespace Intern.MM
     {
         static void Main(string[] args)
         {
-            //Test Input
-            CsvFilteredPlayers(@"D:\Programming\Software University\Intern.MM\Intern.MM\Dataset\NBA-Players.json", 20, 30, @"D:\Programming\Software University\Intern.MM\Intern.MM\OutputCsv\Test.csv");
+            //CsvFilteredPlayers(@"jsonPath", maximumYearsOfPlay, minimumRanking, "pathToCsv");
         }
 
         public static void CsvFilteredPlayers(string path, int maximumYearsOfPlay, int minimumPlayerRating, string pathToCsvFileToGenerate)
